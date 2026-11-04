@@ -1,9 +1,9 @@
 #!/bin/sh
-# Linux: put a start icon for Alex' Smartphone Media Backup on the desktop and in the app menu.
+# Linux: put a start icon for Fast Smartphone Media Backup on the desktop and in the app menu.
 # Run again after moving the project folder.   Remove:  ./install-linux-desktop.sh --remove
 set -e
 DIR="$(cd "$(dirname "$0")" && pwd)"
-ID="alex-smartphone-media-backup"
+ID="fast-smartphone-media-backup"
 DATA="${XDG_DATA_HOME:-$HOME/.local/share}"
 DESKTOP="$(xdg-user-dir DESKTOP 2>/dev/null || echo "$HOME/Desktop")"
 
@@ -28,7 +28,7 @@ cat > "$DATA/applications/$ID.desktop" <<EOF
 [Desktop Entry]
 Type=Application
 Version=1.5
-Name=Alex' Smartphone Media Backup
+Name=Fast Smartphone Media Backup
 GenericName=Phone photo backup
 Comment=Verified backup of photos and videos from an Android phone to external drives
 Exec="$DIR/start-linux.sh"

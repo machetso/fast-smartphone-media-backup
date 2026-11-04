@@ -24,8 +24,8 @@ import shutil
 import subprocess
 import sys
 
-WHY = "Alex' Smartphone Media Backup is copying files - do not sleep or shut down"
-WHO = "Alex' Smartphone Media Backup"
+WHY = "Fast Smartphone Media Backup is copying files - do not sleep or shut down"
+WHO = "Fast Smartphone Media Backup"
 
 # Windows SetThreadExecutionState flags
 ES_CONTINUOUS = 0x80000000
