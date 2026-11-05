@@ -13,8 +13,8 @@ android {
         applicationId = "com.alexvulcu.phonebackup"
         minSdk = 30          // Android 11 - same as wireless debugging
         targetSdk = 36
-        versionCode = 5
-        versionName = "0.3.2"
+        versionCode = 6
+        versionName = "0.3.3"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
